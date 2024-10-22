@@ -1,0 +1,30 @@
+Function Nerve_of_Steel:
+    Step 1: Display "Players stand"
+    
+    Step 2: Generate a random sleep duration between 10 and 25 seconds
+    Step 3: Print the message "Waiting for [sleep duration] seconds..."
+    
+    Step 4: Initialize an empty list called `sitting_players`
+    
+    Step 5: Print the instruction "Enter the names of the players who sit down. Press Enter without typing a name to finish."
+
+    Step 6: Record the current time as `start_time`
+    
+    Step 7: Start a loop to run until the current time minus `start_time` is less than the random sleep duration
+        Step 7.1: Prompt the user to input the name of a sitting player
+        Step 7.2: If a name is provided:
+            Add the name to the `sitting_players` list
+        Step 7.3: If no name is provided:
+            Break the loop
+    
+    Step 8: Display "Time's Up!"
+
+    Step 9: Check if there are any sitting players
+        If there are sitting players:
+            Step 9.1: Set the last player in the list as the winner
+            Step 9.2: Print the message "[Winner] is the last person to sit down. They win!"
+        Else:
+            Print the message "No players sat down, so no winner."
+
+    Step 10: Print the message "Players still standing are eliminated."
+
